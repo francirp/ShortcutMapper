@@ -1,0 +1,50 @@
+{
+    "name" : "Sublime Text",
+    "version" : "v3",
+    "os" : "mac",
+    "mods_used" : ["ALT", "COMMAND", "CONTROL", "SHIFT"],
+    "default_context" : "Global Context",
+    "contexts" : {
+        "Global Context" : {
+            "C" : [
+                {"name":"Copy", "mods":["COMMAND"]}
+            ],
+            "D" : [
+                {"name":"Duplicate line", "mods":["COMMAND", "SHIFT"]},
+                {"name":"Select next matching text", "mods":["COMMAND"]}
+            ],
+            "DOWN_ARROW" : [
+                {"name":"Move line down", "mods":["COMMAND", "CONTROL"]}
+            ],
+            "ENTER" : [
+                {"name":"Insert line", "mods":["COMMAND"]}
+            ],
+            "F" : [
+                {"name":"Find and replace", "mods":["COMMAND", "SHIFT"]},
+                {"name":"Find", "mods":["COMMAND"]}
+            ],
+            "Q" : [
+                {"name":"Close Sublime", "mods":["COMMAND"]}
+            ],
+            "RIGHT_ARROW" : [
+                {"name":"Cursor to end of line", "mods":["COMMAND"]},
+                {"name":"Cursor to end of word", "mods":["ALT"]},
+                {"name":"Select from cursor to end of line", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "UP_ARROW" : [
+                {"name":"Move line up", "mods":["COMMAND", "CONTROL"]}
+            ],
+            "V" : [
+                {"name":"Paste and match indentation", "mods":["COMMAND", "SHIFT"]},
+                {"name":"Paste", "mods":["COMMAND"]}
+            ],
+            "W" : [
+                {"name":"Close sheet", "mods":["COMMAND"]},
+                {"name":"Insert tags around selection", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "X" : [
+                {"name":"Cut", "mods":["COMMAND"]}
+            ]
+        }
+    }
+}

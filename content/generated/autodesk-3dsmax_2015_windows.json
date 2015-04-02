@@ -774,7 +774,7 @@
                 {"name":"Zoom Viewport Out", "mods":["CONTROL"]}
             ],
             "NUMPAD_PERIOD" : [
-                {"name":"Delete Objects", "mods":[]}
+                {"name":"Forward Time One Unit", "mods":[]}
             ],
             "NUMPAD_PLUS" : [
                 {"name":"Virtual Viewport Zoom In", "mods":[]}
@@ -787,7 +787,7 @@
                 {"name":"Virtual Viewport Pan Right", "mods":[]}
             ],
             "NUMPAD_SLASH" : [
-                {"name":"Virtual Viewport Toggle", "mods":[]}
+                {"name":"Play Animation", "mods":[]}
             ],
             "NUMPAD_TWO" : [
                 {"name":"Virtual Viewport Pan Down", "mods":[]}
@@ -813,7 +813,7 @@
                 {"name":"Select Ancestor", "mods":[]}
             ],
             "PERIOD" : [
-                {"name":"Delete Objects", "mods":[]}
+                {"name":"Forward Time One Unit", "mods":[]}
             ],
             "Q" : [
                 {"name":"Isolate Selection", "mods":["ALT"]},

@@ -56,6 +56,10 @@ var sitedata_apps = [
     {
         name: "Sublime Text",
         data: {
+            "v3": {
+                "mac": "sublime-text_v3_mac.json",
+                "windows": "sublime-text_v3_windows.json",
+            },
             "v2": {
                 "mac": "sublime-text_v2_mac.json",
                 "windows": "sublime-text_v2_windows.json",

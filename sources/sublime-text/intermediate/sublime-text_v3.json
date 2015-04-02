@@ -1,0 +1,28 @@
+{
+    "name": "Sublime Text",
+    "version": "v3",
+    "default_context": "Global Context",
+    "os": ["windows", "mac"],
+    "contexts": {
+        "Global Context": {
+            "Copy": ["Ctrl + C", "Command + C"],
+            "Cut": ["Ctrl + X", "Command + X"],
+            "Paste": ["Ctrl + V", "Command + V"],
+            "Cursor to end of line": ["Ctrl + Right Arrow", "Command + Right Arrow"],
+            "Cursor to end of word": ["Ctrl", "Option + Right Arrow"],
+            "Duplicate line": ["Ctrl", "Command + Shift + D"],
+            "Move line up": ["Ctrl", "Command + Control + Up Arrow"],
+            "Move line down": ["Ctrl", "Command + Control + Down Arrow"],
+            "Select next matching text": ["Ctrl + D", "Command + D"],
+            "Multiple Cursors": ["Ctrl + LMB", "Command + LMB"],
+            "Find": ["Ctrl + F", "Command + F"],
+            "Find and replace": ["Ctrl + Shift + F", "Command + Shift + F"],
+            "Select from cursor to end of line": ["Ctrl", "Command + Shift + Right Arrow"],
+            "Insert tags around selection": ["Ctrl", "Control + Shift + W"],
+            "Paste and match indentation": ["Ctrl", "Command + Shift + V"],
+            "Close sheet": ["Ctrl + W", "Command + W"],
+            "Close Sublime": ["Ctrl + Q", "Command + Q"],
+            "Insert line": ["Ctrl + Enter", "Command + Enter"]
+        }
+    }
+}

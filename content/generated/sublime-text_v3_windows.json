@@ -1,0 +1,42 @@
+{
+    "name" : "Sublime Text",
+    "version" : "v3",
+    "os" : "windows",
+    "mods_used" : ["CONTROL", "SHIFT"],
+    "default_context" : "Global Context",
+    "contexts" : {
+        "Global Context" : {
+            "C" : [
+                {"name":"Copy", "mods":["CONTROL"]}
+            ],
+            "CONTROL" : [
+                {"name":"Move line up", "mods":[]}
+            ],
+            "D" : [
+                {"name":"Select next matching text", "mods":["CONTROL"]}
+            ],
+            "ENTER" : [
+                {"name":"Insert line", "mods":["CONTROL"]}
+            ],
+            "F" : [
+                {"name":"Find and replace", "mods":["CONTROL", "SHIFT"]},
+                {"name":"Find", "mods":["CONTROL"]}
+            ],
+            "Q" : [
+                {"name":"Close Sublime", "mods":["CONTROL"]}
+            ],
+            "RIGHT_ARROW" : [
+                {"name":"Cursor to end of line", "mods":["CONTROL"]}
+            ],
+            "V" : [
+                {"name":"Paste", "mods":["CONTROL"]}
+            ],
+            "W" : [
+                {"name":"Close sheet", "mods":["CONTROL"]}
+            ],
+            "X" : [
+                {"name":"Cut", "mods":["CONTROL"]}
+            ]
+        }
+    }
+}
